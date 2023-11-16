@@ -1,10 +1,203 @@
+*{
+  font-family: 'Alegreya SC', serif;
+background-color: #FFF2E8;
+
+}
+
+p{
+  font-size: 100%;
+  margin:0;
+}
+
+.topicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 15rem;
+  font-size: 132%;
+}
+
+
+.botaoPdupla{
+  background-color: #617D5D;
+  width: 500px;
+  border-color: transparent;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+}
+
+.BotaoPagamentos{
+background-color: #617D5D;
+color: #FFF2E8;
+}
+
+
+.topicos1{
+  display: flex;
+  text-align: left;
+  height: fit-content;
+}
+
+.aslamLeao{
+  display: flex;
+ flex-direction: column;
+ padding: 10px 300px;
+}
+
+.nomeAnimais{
+  margin: 0;
+}
+
+.container-textos{
+  text-align: left;
+  margin: 0;
+  max-width: 20rem;
+  height: fit-content;
+}
+
+.textoAslam{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+}
+
+.tituloLoja{
+  margin-bottom: 3%;
+}
+.lojinha1{
+ margin-bottom: 2%;
+ display: flex;
+ flex-direction: row;
+ margin-left: 29%;
+}
+
+.imagemLoja{
+  margin: 2.5%;
+  margin-top: 0px;
+  background-color: #617D5D;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+.lojinha2{
+  margin-bottom: 5%;
+ }
+ 
+
+.bolinhas{
+  margin-bottom: 5%;
+}
+
+.tituloOng{
+  font-size: 145%;
+}
+
+a{
+  color: #617D5D;
+}
+
+.logoPequena {
+ margin-left: 85%;
+ width: 100px; /* Define a largura desejada */
+ height: 100px; /* Define a altura desejada */
+}
+
 .App {
   text-align: center;
+  background-color: #FFF2E8;
 }
+
+h1{
+  color: #617D5D;
+
+}
+
+h3{
+  color: #617D5D;
+
+}
+
+h2{
+  color: #617D5D;
+
+}
+
+.retangulo{
+  color:white;
+  background-color:#617D5D;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  padding-left: 43%;
+  margin-bottom: 6%;
+}
+.Home{
+  display: flex;
+  padding: 10px;
+}
+.Equipe{
+  display: flex;
+  padding: 10px;
+}
+.Contato{
+  display: flex;
+  padding: 10px;
+}
+
+.ONG{
+  display: flex;
+  padding: 10px;
+}
+
+.Store{
+  display: flex;
+  padding: 10px;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.imagens{
+display: flex;
+flex-direction: row;
+height: auto;
+width: 100%;
+}
+
+.imagensL{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  }
+
+
+.textoAslam{
+  width: 100vw;
+  height: 100%;
+}
+
+.naImg2{
+  width: 335px;
+  margin-bottom: 0%;
+  margin-left: 100px;
+  
+}
+
+.naImg{
+  width: 335px;
+  margin-bottom: 0%;
+height: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +207,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0e633e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,8 +218,70 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #39943f;
 }
+
+.entradas{
+
+  background-color: #D9D9D9;
+  width: 400px;
+  border-color: transparent;
+}
+
+.entradas2{
+  background-color: #D9D9D9;
+  width: 270px;
+  border-color: transparent;
+}
+ .escritaEndereco{
+  color: #617D5D;
+ }
+
+ .textoCadastro{
+  margin-right: 20%;
+ }
+
+ .textologin{
+  margin-right: 20%;
+ }
+
+ .textologin2{
+  margin-right: 25%;
+ }
+
+ .textoCadastro2{
+  margin-right: 25%;
+ }
+
+ .textoCadastro3{
+  margin-right: 18%;
+ }
+
+  .botaoCad{
+  background-color: #617D5D;
+  width: 180px;
+  border-color: transparent;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+  }
+
+  .textoBotao{
+color:#D9D9D9;
+background-color: #617D5D;
+  }
+
+  .logoUsuario{
+    margin-left: 90%;
+    margin-top: 2%;
+  }
+  
+  .linkcad{
+    margin-bottom: 1%;
+  }
+  
+
+
 
 @keyframes App-logo-spin {
   from {

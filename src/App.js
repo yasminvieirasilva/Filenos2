@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import MyRoutes from './routes';
 
 function App() {
   return (
+    <body>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyRoutes/>
     </div>
+
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Roboto:wght@100&display=swap');
+</style>
+
+    </body>
   );
 }
 
